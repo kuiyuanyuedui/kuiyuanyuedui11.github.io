@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #efefef;
+  font-family: "Merriweather", serif;
+}
+/* navbar */
+.navbar .max-width {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .menu {
+  margin-top: 50px;
+  margin-left: 800px;
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  color: #48b198;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  font-family: "Merriweather", serif;
+  transition: color 0.3s ease;
+}
+.navbar .menu li a:link {
+  text-decoration: none;
+}
+.navbar .menu li a:hover {
+  color: grey;
+}
+/* home */
+.headshot {
+  width: 60px;
+  height: auto;
+  position: absolute;
+  top: 30px;
+  left: 350px;
+}
+h1 {
+  margin-top: 100px;
+  font-family: "Sacramento", cursive;
+  color: #48b198;
+  font-size: 80px;
+  font-weight: bold;
+}
+.sentence {
+  margin-top: 0;
+  color: #48b198;
+  font-size: 20px;
+}
+.backpic {
+  position: relative;
+  margin-bottom: 0px;
+  width: 60%;
+  height: auto;
+}
+/* responsive media */
+@media (max-width: 991px) {
+  .max-width {
+    padding: 0 50px;
+  }
+}
+
+/* Contact */
+h2 {
+  font-size: 18px;
+  color: grey;
+  font-family: "Merriweather", serif;
+  margin-top: 20px;
+}
+.text {
+  margin-top: 10px;
+}
+.portrait {
+  position: relative;
+  width: 15%;
+  height: auto;
+  margin-top: 50px;
+}
+a.email {
+  color: #48b198;
+  text-decoration: none;
+}
+a.email:hover {
+  color: grey;
+}
+
+/* skills */
+.skills {
+  margin-top: 70px;
+  margin-left: 600px;
+  left: 200px;
+}
+
+.skills .skills-content .column {
+  width: calc(50% - 30px);
+}
+.skills .skills-content .left .text {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.skills .skills-content .left p {
+  text-align: justify;
+}
+.skills .skills-content .left a {
+  display: inline-block;
+  background: #48b198;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 16px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid #48b198;
+  transition: all 0.3s ease;
+}
+.skills .skills-content .left a:hover {
+  color: #48b198;
+  background: none;
+}
+.skills .skills-content .right .bars {
+  margin-bottom: 15px;
+}
+.skills .skills-content .right .info {
+  display: flex;
+  margin-bottom: 5px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span {
+  font-weight: 500;
+  font-size: 18px;
+}
+.skills .skills-content .right .line {
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.skills .skills-content .right .line::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #48b198;
+}
+.skills-content .right .html::before {
+  width: 90%;
+}
+.skills-content .right .css::before {
+  width: 70%;
+}
+.skills-content .right .js::before {
+  width: 80%;
+}
+.skills-content .right .python::before {
+  width: 80%;
+}
+.skills-content .right .java::before {
+  width: 100%;
+}
+/* course */
+.table {
+  margin-top: 40px;
+}
+.t1 {
+  color: #48b198;
+}
+.t2 {
+  color: #48b198;
+}
+.t3 {
+  color: #48b198;
+}
+.bar {
+  color: #48b198;
+}
+/* projects */
+.projects-git {
+  margin-top: 20px;
+}
+.github {
+  margin-top: 100px;
+}
+.check-git {
+  margin-top: 10px;
+  color: #48b198;
+}
+
+/* footer */
+.footer {
+  color: grey;
+  margin-top: 100px;
+}
